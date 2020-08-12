@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<body>
+ <form>
+  <input type = "text" id="input">
+  <button type = "button" onclick="seconds()">Display seconds</button>
+ </form>
+ <script>
+  function seconds(){
+   var date = new Date();
+   var seconds = date.getSeconds();
+   document.getElementById("input").value = seconds;
+  }
+ </script>
+</body>
+</html>
