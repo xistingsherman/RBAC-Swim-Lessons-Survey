@@ -135,8 +135,7 @@ form{
 }
 #logo{
   display: inline-block;
-  vertical-align: bottom;
-  text-align: right;
+  float: right;
 }
 #reset, #next{
   color: #FFFFFF;
